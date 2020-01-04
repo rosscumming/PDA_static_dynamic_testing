@@ -8,7 +8,7 @@ class CardGame
 
 #naming convention using _ should be used instead 'check_for_ace
   def checkforAce(card)
-    if card.value = 1
+    if card.value = 1 #this is assigning '1' instead of comparing - needs to use == instead 
       return true
     else
       return false
@@ -16,11 +16,11 @@ class CardGame
   end
 
 
-#there is no comma between parameters
+
 
 
 #def is mispelled as dif
-  dif highest_card(card1 card2)
+  dif highest_card(card1 card2) #there is no comma between parameters
   if card1.value > card2.value
     return card  #return in if statement missing '1'
   else
