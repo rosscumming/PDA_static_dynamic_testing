@@ -6,7 +6,7 @@
 
 class CardGame
 
-
+#naming convention using _ should be used instead 'check_for_ace
   def checkforAce(card)
     if card.value = 1
       return true
@@ -15,20 +15,30 @@ class CardGame
     end
   end
 
+
+#there is no comma between parameters
+
+
+#def is mispelled as dif
   dif highest_card(card1 card2)
   if card1.value > card2.value
-    return card
+    return card  #return in if statement missing '1'
   else
     return card2
   end
 end
+#there is an extra 'end' which isn't needed
 end
 
-def self.cards_total(cards)
-  total
+def self.cards_total(cards)  #parameter should have * to allow multiple card entries
+  total   #total is not set to  total = 0
   for card in cards
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total  #this return statement should be outside of the loop
   end
 end
+
+#there is no closing end tag for the class
 ```
+
+
